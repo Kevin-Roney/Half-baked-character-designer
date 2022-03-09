@@ -136,7 +136,10 @@ main {
 
 .catchphrase {
     font-size: 2rem;
-    font-family: cursive;
+    font-family: 'Cinzel', serif;
     text-align: center;
     color: red;
+}
+label {
+    font-family: 'Cinzel', serif;
 }
