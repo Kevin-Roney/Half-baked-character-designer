@@ -94,7 +94,7 @@ footer {
 
 main {
     display: flex;
-    background-color: white;
+    background-color: rgb(219, 199, 86);
     margin: 0 auto;
     width: 100%;
     max-width: 800px;
@@ -138,4 +138,5 @@ main {
     font-size: 2rem;
     font-family: cursive;
     text-align: center;
+    color: red;
 }
