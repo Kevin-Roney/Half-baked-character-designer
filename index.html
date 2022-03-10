@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Make your monstrosity!</title>
 </head>
-
 <body>
-
+    <section>
+        <h2 id="name-element"></h2>
+    </section>
     <main>
         <div class="left">
             <div class="picker">
                 <label>
                     Head
                     <select id="head-dropdown">
+                        <option value="" disabled selected hidden>Choose Somethin'!</option>
                         <option value="bird">Bird</option>
                         <option value="duck">Duck</option>
                         <option value="dog">Dog</option>
@@ -30,6 +32,7 @@
                 <label>
                     Middle
                     <select id="middle-dropdown">
+                        <option value="" disabled selected hidden>Choose Somethin'!</option>
                         <option value="blue">Blue</option>
                         <option value="dress">Fancy</option>
                         <option value="pink">Pink</option>
@@ -39,6 +42,7 @@
                 <label>
                     Bottom
                     <select id="bottom-dropdown">
+                        <option value="" disabled selected hidden>Choose Somethin'!</option>
                         <option value="leg">Single Leg</option>
                         <option value="white">White Pants</option>
                         <option value="blue">Blue Jeans</option>
@@ -48,6 +52,11 @@
                     Add a catch phrase
                     <input id="catchphrase-input" placeholder="Add somethin' here!"/>
                     <button id="catchphrase-button">Add</button>
+                </label>
+                <label>
+                    Name Your Friend!
+                    <input id="name-input" placeholder="Add somethin' here!"/>
+                    <button id="name-button">Add</button>
                 </label>
             </div>
             <div id="stats">
